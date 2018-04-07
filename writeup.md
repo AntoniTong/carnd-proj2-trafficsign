@@ -151,14 +151,18 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| Yield      		| Yield   									| 
+| Speed limit (30km/h)    			| Speed limit (20km/h)										|
+| Speed limit (30km/h)					| Speed limit (30km/h)											|
+| Road work	      		| Road work				 				|
+| No entry		| No entry    							|
+| Priority road		| Priority road  							|
+| Right-of-way at the next intersection		| Right-of-way at the next intersection  							|
+| Stop		| Speed limit (50km/h)							|
+| Keep right		| Keep right  							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 7 of the 9 traffic signs, which gives an accuracy of 78%. 
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
